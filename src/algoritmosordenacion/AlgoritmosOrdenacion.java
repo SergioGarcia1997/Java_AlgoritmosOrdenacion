@@ -100,7 +100,7 @@ public class AlgoritmosOrdenacion {
     int[] array2; 
     int[] array3; 
     
-    int cantidad = 200000;
+    int cantidad = 100000;
     /**
      * @param args the command line arguments
      */
@@ -117,6 +117,7 @@ public class AlgoritmosOrdenacion {
             ejercicios.array3[i] = numeros[i];
         }
 
+        System.out.println("Empieza la burbuja: (vete a por un café)");
         long tiempoInicio = System.currentTimeMillis();
 
         ejercicios.ordenacionBurbuja(ejercicios.array1);
